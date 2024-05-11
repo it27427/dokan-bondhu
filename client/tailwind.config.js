@@ -6,6 +6,9 @@ export default {
     fontFamily: {
       sans: ['system-ui', 'ui-sans-serif'],
     },
+    container: {
+      center: true,
+    },
   },
   plugins: [],
 };
