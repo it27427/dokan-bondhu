@@ -1,4 +1,4 @@
-import RootLayout from '@/layouts/RootLayout.jsx';
+import RootLayout from '@/layouts/RootLayout';
 
 const CartPage = () => {
   return (
