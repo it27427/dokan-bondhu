@@ -1,4 +1,4 @@
-import DefaultLayout from '@/layouts/DefaultLayout.jsx';
+import DefaultLayout from '@/layouts/DefaultLayout';
 
 const ForgotPage = () => {
   return (
