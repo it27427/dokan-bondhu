@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "dokan-bondhu": "file:.."
+  }
+}
