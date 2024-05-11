@@ -11,6 +11,7 @@ export default defineConfig({
       public: `${path.resolve(__dirname, './public/')}`,
       pages: path.resolve(__dirname, './src/pages'),
       features: `${path.resolve(__dirname, './src/features')}`,
+      assets: `${path.resolve(__dirname, './src/assets')}`,
     },
   },
   server: {
