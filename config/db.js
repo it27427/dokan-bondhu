@@ -4,7 +4,7 @@ const config = require('./config');
 
 const dbURL = config.db.url;
 
-const connecDB = () => {
+const connectDB = () => {
   try {
     mongoose.connect(dbURL);
     console.log(`Database Connected Successfully!`.bgMagenta);
@@ -13,4 +13,4 @@ const connecDB = () => {
   }
 };
 
-module.exports = connecDB;
+module.exports = connectDB;
